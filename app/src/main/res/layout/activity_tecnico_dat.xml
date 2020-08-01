@@ -22,6 +22,7 @@
             android:layout_height="30dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:onClick="ejecutarTecnicoDat"
             android:background="@drawable/roundbutton"
             android:text="Datos" />
 
@@ -29,6 +30,7 @@
             android:id="@+id/button2"
             android:layout_width="170dp"
             android:layout_height="30dp"
+            android:onClick="ejecutarTecnicoHor"
             android:layout_marginRight="10dp"
             android:background="@drawable/roundbutton"
             android:text="Horarios de Servicio" />
@@ -38,6 +40,7 @@
             android:layout_width="100dp"
             android:layout_height="30dp"
             android:layout_weight="1"
+            android:onClick="ejecutarTecnicoCont"
             android:background="@drawable/roundbutton"
             android:text="Contacto" />
     </LinearLayout>
@@ -82,7 +85,6 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_weight="1"
                     android:text="Nombre"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -91,7 +93,6 @@
                     android:id="@+id/editTextTextPersonName5"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:background="@drawable/roundbutton"
                     android:ems="10"
                     android:inputType="textPersonName" />

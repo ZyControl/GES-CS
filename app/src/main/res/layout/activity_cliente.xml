@@ -83,6 +83,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:width="150dp"
+        android:onClick="ejecutarBuscar"
         android:background="@drawable/roundbutton"
         android:text="Buscar" />
 

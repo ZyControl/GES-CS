@@ -4,21 +4,5 @@
     <string name="txt_valor2">Segundo Valor</string>
     <string name="button">Calcular</string>
     <string name="tv_resultado">Resultado</string>
-    <string-array name = "codes" >
-        <item> 91 </item>
-        <item> 93 </item>
-        <item> 355 </item>
-        <elemento> 213 </elemento>
-        <elemento> 376 </elemento>
-        <elemento> 244 </elemento>
-        <artículo > 672 </artículo>
-        <ítem> 54 </ítem>
-        <ítem> 374 </ítem>
-        <ítem> 297 </ítem>
-        <ítem> 61 </ítem>
-        <ítem> 43 </ítem>
-        <ítem> 994 </ítem>
-        <ítem> 973 </ítem>
-        <item> 880 </item>
-    </string-array>
+
 </resources>
